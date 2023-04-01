@@ -63,8 +63,8 @@ const Education = () => {
         <p className={`${styles.sectionSubText} text-center`}>
           What I have studied so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center text-red-800`}>
-          Education.
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <span className="text-red-800">Education.</span>
         </h2>
       </motion.div>
 

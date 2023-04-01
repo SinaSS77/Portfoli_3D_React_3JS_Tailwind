@@ -6,7 +6,7 @@ import { About, Contact, Experience, Education, Feedbacks, Hero, Navbar, Tech, W
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative bg-brimary z-0' style={'background-color: #000000'}>
+      <div className='relative bg-brimary z-0'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
