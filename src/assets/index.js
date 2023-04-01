@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
+import PhotoShop from "./tech/PhotoShop.png";
+import postgreSQL from "./tech/postgreSQL.png";
+import ruby from "./tech/ruby.png";
+import jest from "./tech/jest.png";
+import sass from "./tech/sass.png";
+
 
 import star from "./company/star.png";
 
@@ -38,6 +45,12 @@ export {
   menu,
   close,
   css,
+  sql,
+  PhotoShop,
+  postgreSQL,
+  ruby,
+  jest,
+  sass,
   docker,
   figma,
   git,

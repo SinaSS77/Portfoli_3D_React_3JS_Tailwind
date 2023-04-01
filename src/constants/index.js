@@ -15,6 +15,13 @@ import {
   git,
   figma,
   docker,
+  sql,
+  PhotoShop,
+  postgreSQL,
+  github,
+  ruby,
+  jest,
+  sass,
   star,
   carrent,
   jobit,
@@ -66,20 +73,16 @@ const technologies = [
     icon: css,
   },
   {
+    name: "SASS",
+    icon: sass,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -94,8 +97,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgreSQL,
+  },
+  {
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "git",
@@ -106,8 +113,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "PhotoShop",
+    icon: PhotoShop,
   },
 ];
 
