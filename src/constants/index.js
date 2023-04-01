@@ -4,29 +4,26 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
   sql,
   PhotoShop,
   postgreSQL,
-  github,
-  ruby,
-  jest,
   sass,
   star,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  Jungle,
+  Movie,
+  Scheduler,
+  SmartToDo,
+  educate,
+  Tweeter,
+  Portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +34,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -135,6 +140,7 @@ const experiences = [
   {
     title: "Front-End Developer",
     company_name: "Padir Gostar",
+    source_code_link: "https://padirgostar.com/",
     icon: star,
     iconBg: "#E6DEDD",
     date: "Feb 2020 - Aug 2022",
@@ -157,7 +163,41 @@ const experiences = [
       "Attended professional development technology courses to increase my knowledge base and learn new information.",
     ],
   },
-  ];
+];
+
+const educations = [
+  {
+    title: "Full-Stack web Developer",
+    company_name: "Lighthouse Labs",
+    icon: educate,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Apr 2023",
+    points: [
+      "Diploma"
+    ],
+
+  },
+  {
+    title: "Applied Web Developer",
+    company_name: "British Columbia Institute of Technology (BCIT)",
+    icon: educate,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - Present",
+    points: [
+      "Associate Degree"
+    ],
+  },
+  {
+    title: "Computer Science Engineering",
+    company_name: "Iran, Azad University",
+    icon: educate,
+    iconBg: "#383E56",
+    date: "Sep 1996 - Jun 2000",
+    points: [
+      "Bachelor's Degree"
+    ],
+  },
+];
 
 const testimonials = [
   {
@@ -188,9 +228,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movie Island",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An application that allows users to search and look up information about movies and also watch their trailers. The application includes pages, search functionality,Also the ability for users to upload their own videos and movies. To have access to the home page users have to login.",
     tags: [
       {
         name: "react",
@@ -201,55 +241,135 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Unit_Test",
+        color: "red-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Movie,
+    source_code_link: "https://github.com/SinaSS77/Movie_Island",
   },
   {
-    name: "Job IT",
+    name: "Jungle",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.Admin Dashboard feature. Payment feature and Edit Card possibility.",
     tags: [
       {
-        name: "react",
+        name: "Rails",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Ruby,Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
+      {
+        name: "Cypress",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Jungle,
+    source_code_link: "https://github.com/SinaSS77/Jungle",
   },
   {
-    name: "Trip Guide",
+    name: "Scheduler",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Interview scheduler is a project that allows users to choose a day, a time, and an interviewer in order to book an appointment. Appointments can be easily edited and updated, or cancelled through the app by clicking the related icons. To produce this application We have used React. It is tested with Unit-Test, Jest, StoryBook and Cypress.",
     tags: [
       {
-        name: "nextjs",
+        name: "Node,Express",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "React,CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "StoryBook",
+        color: "red-text-gradient",
+      },
+    ],
+    image: Scheduler,
+    source_code_link: "https://github.com/SinaSS77/scheduler",
+  },
+  {
+    name: "Smart To Do List",
+    description:
+      "This app allows users to input the name of an item and it categorizes it into one of five groups:To Watch, To Eat, To Read, To Buy, Other. Users will have the ability to add and delete items, as well as change an item's category.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ejs,Sass",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "StoryBook",
+        color: "red-text-gradient",
+      },
+    ],
+    image: SmartToDo,
+    source_code_link: "https://github.com/SinaSS77/SmartToDoList",
+  },
+  {
+    name: "Tweeter",
+    description:
+      "Tweeter is a simple, single-page Twitter clone. Users can send and recieve a text with others.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ejs,CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Tweeter,
+    source_code_link: "https://github.com/SinaSS77/tweeter",
+  },
+  
+  {
+    name: "Portfolio",
+    description:
+      "Personal Portfolio",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cypress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Portfolio,
+    source_code_link: "https://github.com/SinaSS77/Dark_React_Portfolio",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies,educations, experiences, testimonials, projects };

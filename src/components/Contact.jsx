@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -27,19 +28,21 @@ const Contact = () => {
     });
   };
 
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+    emailjs.send(
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Sina Molaverdikhani",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "s.molaverdikhani@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -72,7 +75,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Get in touch (s.molaverdikhani@gmail.com)</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form

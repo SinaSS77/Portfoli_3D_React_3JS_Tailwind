@@ -27,18 +27,28 @@ import ruby from "./tech/ruby.png";
 import jest from "./tech/jest.png";
 import sass from "./tech/sass.png";
 
-
+import educate from './educate.png';
 import star from "./company/star.png";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Jungle from './Jungle.png';
+import Movie from './Movie_Island.png';
+import Scheduler from './Scheduler.png';
+import SmartToDo from './SmartToDo.jpg';
+import tinyURL from './tinyURL.png';
+import Tweeter from './Tweeter.png';
+import Portfolio from './Portfolio.png';
 
 export {
+  Portfolio,
+  Jungle,
+  Movie,
+  Scheduler,
+  SmartToDo,
+  tinyURL,
+  Tweeter,
   logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -64,7 +74,6 @@ export {
   typescript,
   threejs,
   star,
-  carrent,
-  jobit,
-  tripguide,
+  educate,
+  creator
 };
