@@ -15,10 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  star,
   carrent,
   jobit,
   tripguide,
@@ -42,11 +39,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Designer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -116,58 +113,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-Stack web Developer",
+    company_name: "Lighthouse Labs",
+    icon: star,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "An intense web development bootcamp program (16 weeks) that I attended full-time, where I gained over 1300 hours of valuable hands-on experience working with various tech stacks.",
+      "During this program, I learned to think as a developer and write full-stack applications with libraries such as React, Databases in PSQL and servers with NodeJs and much more.",
+      "My time at Lighthouse was difficult and challenging but well worth the effort.",
+      "This not only taught me resilience but solidified my confidence in myself being a well-trained Web Developer.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front-End Developer",
+    company_name: "Padir Gostar",
+    icon: star,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2020 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Used Figma and Photoshop for design and presentation to ensure clients' demands and requests.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Coordinated with other web designers to manage projects using HTML, CSS, SASS and JavaScript.",
+      "Created responsive, reusable and dynamic form components to make the user onboarding form.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Computer Programming Instructor",
+    company_name: "Karaj Azad University",
+    icon: star,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2019 - May 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Taught HTML and CSS coding language.",
+      "Used lectures, demonstrations and discussions to instruct students individually and in small groups.",
+      "Attended professional development technology courses to increase my knowledge base and learn new information.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+  ];
 
 const testimonials = [
   {
