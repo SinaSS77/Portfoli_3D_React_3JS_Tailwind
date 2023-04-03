@@ -131,10 +131,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Apr 2023",
     points: [
-      "An intense web development bootcamp program (16 weeks) that I attended full-time, where I gained over 1300 hours of valuable hands-on experience working with various tech stacks.",
-      "During this program, I learned to think as a developer and write full-stack applications with libraries such as React, Databases in PSQL and servers with NodeJs and much more.",
-      "My time at Lighthouse was difficult and challenging but well worth the effort.",
-      "This not only taught me resilience but solidified my confidence in myself being a well-trained Web Developer.",
+      "I completed a rigorous 16-week full-time web development bootcamp program at Lighthouse, where I gained extensive hands-on experience of over 1300 hours with various tech stacks. Through this program, I honed my skills as a developer and acquired the ability to write full-stack applications using React, PSQL databases, NodeJs servers, and other libraries. Despite the challenging nature of the program, I persevered and developed resilience, and emerged as a well-trained web developer with increased confidence in my abilities. As a result of this program, I successfully completed more than 6 practical REST-API projects.",
     ],
   },
   {
@@ -202,26 +199,26 @@ const educations = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I thought it was impossible to make a simple and beautiful web like our website, but Sina proved me wrong.",
+    name: "Hamid Abbaspanah",
+    designation: "CEO",
+    company: "PadirGostar",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Sina is a person who has a friendly demeanor and cares about his friends. He is also a good team player.",
+    name: "Khin MoMo",
+    designation: "Web Developer",
+    company: "IBM",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "After Sina optimized our website, our traffic increased by 50%.He is a hardworking individual and his ideas are awesome!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Canteen",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
