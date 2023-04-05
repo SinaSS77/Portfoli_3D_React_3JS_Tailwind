@@ -17,7 +17,8 @@ const Hero = () => {
         <div>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}> I am a full stack web developer 
         <br className=' sm:block hidden'/> and a web designer
-        <br className=' sm:block hidden'/> <span className=" text-red-600 text-[17px] sm:block hidden">🚨 Pictures Are 3D. You can click on and rotate them 👇🏼🚨</span></p>
+        <br/>
+        <br className=' sm:block hidden'/> <span className=" text-orange-400 text-[18px] sm:block hidden">🚨 Pictures in this app Are 3D. You can click on and rotate them 👇🏼🚨</span></p>
         </div>
       </div>
 
