@@ -125,13 +125,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack web Developer",
-    company_name: "Lighthouse Labs",
+    title: "Front-End Developer",
+    company_name: "Colbeh Persian Kitchen & Bar",
     icon: star,
     iconBg: "#383E56",
-    date: "Jan 2023 - Apr 2023",
+    date: "Jun 2021 - Feb 2022",
     points: [
-      "I completed a rigorous 16-week full-time web development bootcamp program at Lighthouse, where I gained extensive hands-on experience of over 1300 hours with various tech stacks. Through this program, I honed my skills as a developer and acquired the ability to write full-stack applications using React, PSQL databases, NodeJs servers, and other libraries. Despite the challenging nature of the program, I persevered and developed resilience, and emerged as a well-trained web developer with increased confidence in my abilities. As a result of this program, I successfully completed more than 6 practical REST-API projects.",
+      "Successfully designed and developed the front-end of a restaurant website, which included developing responsive layouts, implementing user interfaces, and ensuring optimal user experiencce.",
+      "Collaborated remotely with a team of three freelancers to deliver a high-quality product that met the client's requirements and exceeded their expectations.",
+      "Demonstrated proficiency in SQL by setting up the database for the restaurant website, writing optimized queries, and ensuring data accuracy and consistency.",
+      "Conducted thorough testing and debugging to identify and fix issues, ensuring the website was free of errors and ran smoothly across all devices and browsers.",
+      "Proactively communicated with the client to gather requirements, provide progress updates, and incorporate feedback into the development process.",
+    ],
+  },
+  {
+    title: "Web Designer - Front End Developer",
+    company_name: "BeautyHome",
+    icon: star,
+    iconBg: "#E6DEDD",
+    date: "Sep 2020 - Apr 2021",
+    points: [
+      "Developed and designed a visually appealing and user-friendly website using Figma, Photoshop, and front-end development tools such as Sass and EJS.",
+      "Collaborated effectively with a team to ensure the website met the client's needs and expectations.",
+      "Deployed the website, resulting in a significant increase in customer engagement and a 40% increase in business for the home interior design company.",
+      "Continuously improved and maintained the website to ensure it met current industry standards and best practices.",
+      "Demonstrated proficiency in HTML, SASS, and JavaScript, as well as experience with various front-end development tools and technologies.",
     ],
   },
   {
@@ -139,7 +157,7 @@ const experiences = [
     company_name: "Padir Gostar",
     source_code_link: "https://padirgostar.com/",
     icon: star,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Feb 2020 - Aug 2022",
     points: [
       "Used Figma and Photoshop for design and presentation to ensure clients' demands and requests.",
@@ -152,7 +170,7 @@ const experiences = [
     title: "Computer Programming Instructor",
     company_name: "Karaj Azad University",
     icon: star,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Sep 2019 - May 2021",
     points: [
       "Taught HTML and CSS coding language.",
@@ -172,7 +190,6 @@ const educations = [
     points: [
       "Diploma"
     ],
-
   },
   {
     title: "Applied Web Developer",
